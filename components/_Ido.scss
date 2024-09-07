@@ -1,0 +1,51 @@
+#ido{
+    margin-bottom: 130px;
+    .uppertext{
+        
+        h3{
+                font-size: 35px;
+                font-weight: 700;
+                color: #181818;
+                text-align: center;
+                margin-bottom: 30px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #757575;
+            text-align: center;
+            width: 909px;
+            
+            margin: 0 auto;
+        }
+
+    }
+    .cardwrapper{
+        margin-top: 50px;
+        display: flex;
+        column-gap: 24px;
+        .mycard{
+            padding: 30px;
+            background-color: $white-color;
+            box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);;
+            img{
+                margin-bottom: 30px;
+                height: 43.99px;
+            }
+            h4{
+                font-size: 20px;
+                font-weight: 700;
+                color: #181818;
+                margin-bottom: 20px;    
+            }
+            p{
+                color: #757575;
+                width: 201px;
+                font-size: 16px;
+                font-weight: 400;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+#banner{
+    padding-top: 161px;
+    margin-bottom: 130px;
+    background-color: $primary-color;
+    position: relative;
+    
+    .fullpart{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        position: relative;
+        h1{
+                font-size: 100px;
+                font-weight: 700;
+                letter-spacing: 33px;
+                color: rgba(24, 24, 24, 0.15);
+                rotate: 270deg;
+                position: absolute;
+                left: -515px;
+                top: 158px;
+        }
+        .leftpart{
+            .button{
+                @include buttonstyle();
+                display: inline-block;
+                margin-right: 30px;
+                
+                a{
+                    margin-left:10px;
+                    color: $white-color;
+                }
+            }
+            h3{
+                font-size: 45px;
+                font-weight: 600;
+                margin-left: 5px;
+                color: $text-color;
+            }
+            h2{
+                color: #181818;
+                font-weight:700;
+                font-size: 85px;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                margin-bottom: 30px;
+                color: #757575;
+                width: 585px;
+            }
+            
+        }
+        .rightpart{
+           position: relative;
+           .positioned{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+           }
+           .manimage{
+            position: relative;
+            left: 0;
+            bottom: 0;
+            z-index: 11;
+           }
+        }
+
+    }
+
+}

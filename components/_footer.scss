@@ -1,0 +1,73 @@
+footer{
+    margin-top: 113px;
+    padding: 130px 0;
+    background-color: $primary-color;
+    .footwrapper{
+        display: flex;
+        justify-content: space-between;
+        .textleft{
+            h2{
+                font-size: 35px;
+                font-weight: 700;
+                color: #181818;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                color: #181818;
+                margin-bottom: 30px;
+                width: 562px;
+                line-height: 28px;
+            }
+            .icon 
+            {
+                a i{
+                margin-right: 24px;
+                color: $secondary-color;
+                width: 24px;
+                height: 24px;
+            }
+        }
+        }
+        .rightpart{
+            .button{
+                margin-top: 30px;
+                a{
+                    @include buttonstyle();
+                }
+            }
+            }
+            h2{
+                font-size: 35px;
+                font-weight: 700;
+                color: #181818;
+                margin-bottom: 28px;
+            }
+            .inputs{
+              
+                input{
+                    width: 461px;
+                    display: block;
+                    margin-bottom: 24px;
+                    height: 64px;
+                    border: none;
+                    background-color: $white-color;
+                &::placeholder{
+                    padding-left: 30px;
+                    
+                }
+                &:nth-child(3){
+                    height: 180px; 
+                      &::placeholder{
+                        
+                       padding-top: 0;
+                      }
+                }
+            }
+            
+            
+        }
+    }
+    
+}

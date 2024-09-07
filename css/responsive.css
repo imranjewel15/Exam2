@@ -1,0 +1,208 @@
+@media (min-width:320px) and (max-width:575px){
+  header {
+    position: static;
+}
+  header ul li {
+        margin-right: 0;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    header .btnline{
+      text-align: center ;
+      margin-bottom: 20px;
+    }
+    header .button {
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 600;
+  }
+      header a img {
+        width: 60%;
+      }
+      header .button {
+        margin-top: 20px;
+      }
+      #banner .fullpart {
+        flex-direction: column-reverse;
+
+    }
+    #banner {
+      width: 100%;
+      margin-bottom:10px;
+      padding-top: 20px;
+    }
+    #banner .fullpart h1 {
+      display: none;
+    }
+    #banner .fullpart .leftpart h2 {
+      font-size: 28px;
+  }
+    #banner .fullpart .leftpart h3 {
+      font-size: 24px;
+      text-align: center;
+  }
+  #banner .fullpart .leftpart h2 {
+    color: #181818;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#banner .fullpart .leftpart p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #757575;
+  width: 100%;
+  text-align: justify;
+}
+#banner .fullpart .leftpart .button {
+  margin-bottom: 10px;
+  display: block;
+  margin-right: 0;
+  text-align: center;
+}
+#banner .fullpart .rightpart .manimage {
+  width: 100%;
+}
+#banner .fullpart .rightpart {
+  margin-top: 20px;
+}
+#aboutme .aboutwrapper {
+  padding: 10px 0;
+}
+#aboutme .aboutwrapper .text h3 {
+  font-size: 24px;
+}
+#aboutme .aboutwrapper .text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+  text-align: justify;
+  width: 100%;
+  margin-top: 10px;
+}
+#aboutme .aboutwrapper .details {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+#aboutme .aboutwrapper .details p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 20px;
+}
+#aboutme .aboutwrapper .details p span {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+#aboutme {
+  margin-bottom: 30px;
+}
+#ido {
+  margin-bottom: 20px;
+}
+#ido .uppertext h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#ido .uppertext p {
+  font-size: 16px;
+  text-align: justify;
+  width: 100%;
+}
+#ido .cardwrapper {
+  margin-top: 20px;
+  flex-direction: column;
+  row-gap: 10px;
+}
+#ido .cardwrapper .mycard {
+  padding: 30px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  text-align: center;
+}
+#resume h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+#resume .textallpart .textwrapper h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+#resume .textallpart .textwrapper h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#resume .textallpart .textwrapper h3 {
+  font-size: 20px;
+}
+#resume .textallpart .textwrapper p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#resume .buttoncenter .button a {
+  font-size: 14px;
+}
+#resume .textallpart .textwrapper {
+  margin-bottom: 15px;
+}
+#resume .textallpart {
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  margin-bottom: 10px;
+}
+footer .footwrapper {
+  flex-direction: column;
+}
+footer {
+  margin-top: 10px;
+  padding: 20px;
+}
+footer .footwrapper .textleft h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+footer .footwrapper .textleft p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: justify;
+}
+footer .footwrapper .textleft .icon  {
+margin: 0 auto;
+text-align: center;
+}
+
+footer .footwrapper .textleft .icon i {
+  display: inblock;
+}
+footer .footwrapper h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+footer .footwrapper .inputs input {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 35px;
+}
+footer .footwrapper .inputs input::placeholder {
+  margin-left: 0;
+  padding: 0;
+  text-align: center;
+}
+footer .footwrapper .rightpart .button {
+  text-align: center;
+  margin-bottom: 30px;
+}
+footer .footwrapper .rightpart .button a {
+  padding: 13px 29px;
+
+  border-radius: 5px;
+  font-size: 14px;
+
+}
+}
